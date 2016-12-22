@@ -19,7 +19,13 @@ The extension can be used to check if the basic implementation of functional tes
     "bin-dir": "bin/",
     "github-protocols": ["https"],
     "secure-http": false,
-    "discard-changes": true
+    "discard-changes": true,
+    "config": {
+      "preferred-install": {
+        "typo3/cms": "source",
+        "*": "dist" 
+      }
+    }
   },
   "extra": {
     "typo3/cms": {
