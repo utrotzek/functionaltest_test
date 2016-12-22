@@ -3,7 +3,7 @@ The extension can be used to check if the basic implementation of functional tes
 
 # Hot to test
 
-1. Create the following composer json
+- Create the following composer json
 
 ```json
 {
@@ -29,11 +29,11 @@ The extension can be used to check if the basic implementation of functional tes
   }
 }
 ```
-2. run composer install
+- run composer install
 
-3. Install TYPO3 instance (using the install wizard)
+- Install TYPO3 instance (using the install wizard)
 
-4. Goto directory ***WWW*** and execute: 
+- Goto directory ***WWW*** and execute: 
 
 ```
 ../bin/phpunit --process-isolation --bootstrap typo3/sysext/core/Build/FunctionalTestsBootstrap.php typo3conf/ext/functionaltest_test/Tests/Functional/
