@@ -1,0 +1,21 @@
+{
+  "name": "citeq/functionaltest-test",
+  "version": "1.0.0",
+  "type": "typo3-cms-extension",
+  "require": {
+    "typo3/cms": "~7.6.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.8.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "CITEQ\\FunctionaltestTest\\": "Classes"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "CITEQ\\FunctionaltestTest\\": "Tests"
+    }
+  }
+}
