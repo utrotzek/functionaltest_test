@@ -1,7 +1,7 @@
 # Test functional test
 The extension can be used to check if the basic implementation of functional test work properly.
 
-# Hot to test
+# How to test
 
 - Create the following composer json
 
